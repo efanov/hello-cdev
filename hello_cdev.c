@@ -12,6 +12,7 @@
 #include <linux/moduleparam.h>  /* command-line args */
 #include <asm/uaccess.h>        /* copy_*_user */
 
+#include <linux/slab.h>		/* kfree(), kmalloc() */
 #include <linux/types.h>        /* dev_t types */
 #include <linux/cdev.h>         /* cdev */
 #include <linux/fs.h>           /* file_operations */
